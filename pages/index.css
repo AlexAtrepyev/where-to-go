@@ -31,3 +31,7 @@
 @import url(../blocks/grid/__button/grid__button.css);
 @import url(../blocks/grid/__input-where/grid__input-where.css);
 @import url(../blocks/grid/__input-because/grid__input-because.css);
+
+/* import footer styles */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
