@@ -3,3 +3,7 @@
 @import url(../fonts/fonts.css);
 
 @import url(../blocks/root/root.css);
+
+/* import footer styles */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
