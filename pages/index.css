@@ -12,3 +12,15 @@
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-list/header__menu-list.css);
 @import url(../blocks/header/__report/header__report.css);
+
+/* import grid styles */
+@import url(../blocks/grid/grid.css);
+@import url(../blocks/grid/__card/grid__card.css);
+@import url(../blocks/grid/__card/_place/grid__card_place_form.css);
+@import url(../blocks/grid/__img/grid__img.css);
+@import url(../blocks/grid/__img/_place/grid__img_place_form.css);
+@import url(../blocks/grid/__content/grid__content.css);
+@import url(../blocks/grid/__content/_place/grid__content_place_form.css);
+@import url(../blocks/grid/__title/grid__title.css);
+@import url(../blocks/grid/__text/grid__text.css);
+@import url(../blocks/grid/__paragraph/grid__paragraph.css);
