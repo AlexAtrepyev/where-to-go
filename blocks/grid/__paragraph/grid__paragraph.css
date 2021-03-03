@@ -1,0 +1,14 @@
+.grid__paragraph {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #010101;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 400px;
+    padding-bottom: 35px;
+}
+
+.grid__paragraph:last-of-type {
+    padding-bottom: 0;
+}
