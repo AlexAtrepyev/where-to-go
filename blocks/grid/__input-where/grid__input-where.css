@@ -1,15 +1,15 @@
 .grid__input-where {
-    box-sizing: border-box;
-    background-color: #fffafa;
-    font-family: 'Montserrat', sans-serif;
-    border: none;
-    border-radius: 3px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    padding: 6px 0px 6px 15px;
-    line-height: 1.3;
+  box-sizing: border-box;
+  background-color: #fffafa;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 6px 0px 6px 15px;
+  line-height: 1.3;
 }
 
 .grid__input-where::placeholder {
-    color: #010101;
+  color: #010101;
 }

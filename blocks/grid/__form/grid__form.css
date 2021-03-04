@@ -1,5 +1,5 @@
 .grid__form {
-    display: flex;
-    flex-direction: column;
-    max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
 }
