@@ -5,4 +5,10 @@
   font-size: 14px;
   color: #060606;
   line-height: 0.9;
+  letter-spacing: -1.25px;
+  transition: 0.3s;
+}
+
+.header__menu-link:hover {
+  opacity: 0.7;
 }

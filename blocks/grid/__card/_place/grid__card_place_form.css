@@ -1,3 +1,10 @@
 .grid__card_place_form {
   justify-content: space-between;
 }
+
+
+@media screen and (max-width:768px) {
+  .grid__card_place_form {
+    flex-direction: column-reverse;
+  }
+}
