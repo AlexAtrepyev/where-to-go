@@ -1,0 +1,8 @@
+.grid__card {
+  display: flex;
+}
+
+.grid__card:nth-child(2n) {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}

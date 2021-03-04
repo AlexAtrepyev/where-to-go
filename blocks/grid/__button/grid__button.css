@@ -1,0 +1,20 @@
+.grid__button {
+  box-sizing: border-box;
+  width: 215px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  align-self: flex-end;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  padding: 9px 5px 7px 1px;
+  transition: 0.3s;
+}
+
+.grid__button:hover {
+  color: #000000;
+  background-color: #fffafa;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
