@@ -1,6 +1,7 @@
 .grid__input-because {
   box-sizing: border-box;
   background-color: #fffafa;
+  width: 380px;
   font-family: 'Montserrat', sans-serif;
   border: none;
   border-radius: 3px;
@@ -8,6 +9,7 @@
   margin-bottom: 17px;
   padding: 6px 0px 85px 15px;
   line-height: 1.3;
+  letter-spacing: -0.8px;
 }
 
 .grid__input-because::placeholder {
