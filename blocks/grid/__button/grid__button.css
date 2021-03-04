@@ -3,13 +3,14 @@
   width: 215px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   align-self: flex-end;
   background-color: #000000;
   color: #ffffff;
   border: 1px solid #000000;
-  padding: 9px 5px 7px 1px;
+  padding: 9px 5px 6px 0px;
   transition: 0.3s;
+  letter-spacing: -0.5px;
 }
 
 .grid__button:hover {
