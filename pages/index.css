@@ -4,9 +4,32 @@
 
 @import url(../blocks/root/root.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-list/header__menu-list.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__report/header__report.css);
+
+@import url(../blocks/intro/intro.css);
+
+@import url(../blocks/intro/__text/intro__text.css);
+
 @import url(../blocks/section-title/section-title.css);
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
+
+@import url(../blocks/grid/grid.css);
+@import url(../blocks/grid/__cards/grid__cards.css);
+@import url(../blocks/grid/__card/grid__card.css);
+@import url(../blocks/grid/__card/_place/grid__card_place_form.css);
+@import url(../blocks/grid/__img/grid__img.css);
+@import url(../blocks/grid/__img/_place/grid__img_place_form.css);
+@import url(../blocks/grid/__content/grid__content.css);
+@import url(../blocks/grid/__content/_place/grid__content_place_form.css);
+@import url(../blocks/grid/__title/grid__title.css);
+@import url(../blocks/grid/__text/grid__text.css);
+@import url(../blocks/grid/__paragraph/grid__paragraph.css);
 
 @import url(../blocks/people-talking/people-talking.css);
 
@@ -17,3 +40,15 @@
 @import url(../blocks/quotes/__author/quotes__author.css);
 
 @import url(../blocks/quotes/__text/quotes__text.css);
+
+@import url(../blocks/intro/__image/intro__image.css);
+
+@import url(../blocks/grid/__form/grid__form.css);
+@import url(../blocks/grid/__form-title/grid__form-title.css);
+@import url(../blocks/grid/__form-field/grid__form-field.css);
+@import url(../blocks/grid/__input-where/grid__input-where.css);
+@import url(../blocks/grid/__input-because/grid__input-because.css);
+@import url(../blocks/grid/__button/grid__button.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

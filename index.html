@@ -7,11 +7,58 @@
     <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body class="root">
-    <header>
-
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item"><a href="#" class="header__menu-link">Мечты</a></li>
+          <li class="header__menu-item"><a href="#" class="header__menu-link">Ожидания</a></li>
+          <li class="header__menu-item"><a href="#" class="header__menu-link">Реальность</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="header__report">Пожаловаться</a>
     </header>
-
     <main>
+      <section class="intro">
+        <div class="intro__text">
+          <h1 class="section-title">Куда я поеду</h1>
+          <p class="section-subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
+        </div>
+        <img src="./images/intro-image.jpeg" alt="под крылом самолета о чем-то поет зеленое море тайги" class="intro__image">
+      </section>
+      <section class="grid">
+        <ul class="grid__cards">
+          <li class="grid__card">
+            <img src="./images/places-forest.jpeg" alt="" class="grid__img">
+            <div class="grid__content">
+                <h2 class="grid__title">Поеду в лес</h2>
+                <div class="grid__text">
+                    <p class="grid__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+                    <p class="grid__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+                </div>
+            </div>
+          </li>
+          <li class="grid__card">
+            <img src="./images/places-mountains.jpeg" alt="" class="grid__img">
+            <div class="grid__content">
+                <h2 class="grid__title">Поеду в горы</h2>
+                <div class="grid__text">
+                    <p class="grid__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+                </div>
+            </div>
+          </li>
+          <li class="grid__card">
+            <img src="./images/places-black-sea.jpeg" alt="" class="grid__img">
+            <div class="grid__content">
+                <h2 class="grid__title">Поеду на Чёрное море</h2>
+                <div class="grid__text">
+                    <p class="grid__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+                    <p class="grid__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+                    <p class="grid__paragraph">Уеду я.</p>
+                </div>
+            </div>
+          </li>
+        </ul>
+      </section>
       <section class="people-talking">
         <h2 class="section-title">Люди</h2>
         <p class="section-subtitle">Что говорят и говорили люди о путешествиях</p>
@@ -34,10 +81,25 @@
           </li>
         </ul>
       </section>
+      <section class="grid">
+        <div class="grid__card grid__card_place_form">
+          <div class="grid__content grid__content_place_form">
+            <form action="#" class="grid__form">
+              <h2 class="grid__form-title">Так куда же я поеду?</h2>
+              <fieldset class="grid__form-field">
+                <input type="text" class="grid__input-where" placeholder="Я поеду ...">
+                <input type="text" class="grid__input-because" placeholder="Потому что я ...">
+              </fieldset>
+              <button type="submit" class="grid__button">Поехали уже куда-нибудь!</button>
+            </form>
+          </div>
+          <img src="./images/airport-schedule.jpg" alt="Табло прибытия в аэропорту" class="grid__img grid__img_place_form">
+        </div>
+      </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+      <h2 class="footer__copyright">&copy; 2021</h2>
     </footer>
   </body>
 </html>

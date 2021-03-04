@@ -1,0 +1,6 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 200px;
+  padding: 95px 170px 140px 75px;
+}
