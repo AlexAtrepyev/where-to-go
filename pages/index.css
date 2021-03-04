@@ -6,6 +6,7 @@
 
 /* import grid styles */
 @import url(../blocks/grid/grid.css);
+@import url(../blocks/grid/__cards/grid__cards.css);
 @import url(../blocks/grid/__card/grid__card.css);
 @import url(../blocks/grid/__card/_place/grid__card_place_form.css);
 @import url(../blocks/grid/__img/grid__img.css);
