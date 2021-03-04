@@ -6,8 +6,8 @@
 
 /* import grid-form styles */
 @import url(../blocks/grid/__form/grid__form.css);
-@import url(../blocks/grid/__label/grid__label.css);
 @import url(../blocks/grid/__form-title/grid__form-title.css);
-@import url(../blocks/grid/__button/grid__button.css);
+@import url(../blocks/grid/__form-field/grid__form-field.css);
 @import url(../blocks/grid/__input-where/grid__input-where.css);
 @import url(../blocks/grid/__input-because/grid__input-because.css);
+@import url(../blocks/grid/__button/grid__button.css);
