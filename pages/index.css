@@ -3,3 +3,13 @@
 @import url(../fonts/fonts.css);
 
 @import url(../blocks/root/root.css);
+
+@import url(../blocks/isolation/isolation.css);
+
+@import url(../blocks/isolation/__title/isolation__title.css);
+
+@import url(../blocks/isolation/__poster/isolation__poster.css);
+
+@import url(../blocks/isolation/__play/isolation__play.css);
+
+@import url(../blocks/isolation/__video/isolation__video.css);
