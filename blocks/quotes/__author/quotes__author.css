@@ -1,6 +1,6 @@
 .quotes__author {
   font-family: Montserrat, Arial, serif;
-  font-size: calc((100vw - 768px) / (1377 - 768) * (14 - 10) + 10px);
+  font-size: calc((100vw - 768px) / (1377 - 768) * (14 - 12) + 12px);
   font-weight: bold;
   font-stretch: condensed;
   text-transform: uppercase;

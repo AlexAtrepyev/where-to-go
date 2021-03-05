@@ -3,7 +3,7 @@
   min-height: 574px;
 }
 
-.grid__card:nth-child(2n) {
+.grid__card:nth-child(odd) {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: start;
   }
-  .grid__card:nth-child(2n){
+  .grid__card:nth-child(odd){
     flex-direction: column;
     justify-content: start;
   }
