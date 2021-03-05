@@ -1,6 +1,27 @@
 .intro {
   display: grid;
   grid-template-columns: 1fr max-content;
-  gap: 200px;
-  padding: 95px 170px 140px 75px;
+  grid-gap: 14%;
+  padding: 95px 12% 140px 5.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 90px 5% 100px;
+    grid-gap: 5%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding: 25px 0 35px;
+  }
 }
