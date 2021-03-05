@@ -5,4 +5,13 @@
   color: #010101;
   font-size: 35px;
   letter-spacing: 1px;
+  padding-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+@media screen and (max-width:1024px) {
+  .grid__title {
+    padding-left: 20px;
+    width: 80%;
+  }
 }

@@ -1,6 +1,6 @@
 .grid__button {
   box-sizing: border-box;
-  width: 215px;
+  max-width: 215px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 15px;

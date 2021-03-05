@@ -1,7 +1,7 @@
 .grid__input-where {
   box-sizing: border-box;
   background-color: #fffafa;
-  width: 380px;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   border: none;
   border-radius: 3px;

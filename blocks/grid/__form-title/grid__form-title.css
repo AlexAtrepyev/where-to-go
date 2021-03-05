@@ -6,6 +6,21 @@
   font-size: 38px;
   letter-spacing: -1.7px;
   line-height: 1.23;
-  margin-bottom: 86px;
+  padding-bottom: 86px;
   max-width: 380px;
+}
+
+@media screen and (max-width:1024px) {
+  .grid__form-title {
+    padding-bottom: 30px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .grid__form-title {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 100%;
+  }
 }
