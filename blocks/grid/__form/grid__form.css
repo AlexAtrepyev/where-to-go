@@ -3,3 +3,21 @@
   flex-direction: column;
   max-width: 380px;
 }
+
+@media screen and (max-width:1024px) {
+  .grid__form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .grid__form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .grid__form {
+    width: 80%;
+  }
+}

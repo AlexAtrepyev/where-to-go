@@ -11,7 +11,7 @@
 
 @media screen and (max-width:1024px) {
   .grid__title {
-    margin: 0 auto;
+    padding-left: 20px;
     width: 80%;
   }
 }

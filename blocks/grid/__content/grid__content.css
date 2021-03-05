@@ -19,6 +19,7 @@
 
 @media screen and (max-width:768px) {
   .grid__content {
+    padding-top: 50px;
     width: 100%;
     height: 100%;
   }
