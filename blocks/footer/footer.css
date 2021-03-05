@@ -9,12 +9,12 @@
 
 @media screen and (max-width:1024px) {
   .footer {
-    min-height: 450px;
+    min-height: 350px;
   }
 }
 
 @media screen and (max-width:768px) {
   .footer {
-    min-height: 300px;
+    min-height: 200px;
   }
 }
