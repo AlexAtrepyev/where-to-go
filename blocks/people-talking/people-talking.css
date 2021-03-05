@@ -1,3 +1,9 @@
 .people-talking {
-  padding: 150px 75px 140px;
+  padding: 150px 5.5% 140px;
+}
+
+@media screen and (max-width: 1024px) {
+  .people-talking {
+    padding: 100px 5% 100px;
+  }
 }
